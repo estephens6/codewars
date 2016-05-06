@@ -1,0 +1,16 @@
+def stringy(size)
+	i=0
+	arr=[]
+	while size > i
+		if size % 2 == 0
+		  arr << 1
+	else
+		  arr << 0
+	end
+		size -= 1
+	end
+	if arr[0] == 0
+		arr.unshift(1).pop
+	end
+	arr.join
+end
