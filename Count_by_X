@@ -1,0 +1,7 @@
+def count_by(x,n)  #your code here  arr = []  i = 0  times = x while n > i do
+ 	arr.push x
+ 	n = n -1
+	x = x + times
+ end
+ arr
+end
